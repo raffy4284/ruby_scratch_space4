@@ -1,21 +1,23 @@
 Rails.application.routes.draw do
+  
+  root 'pages#home'
   get 'pages/home'
 
-  get 'pages/biography'
+  get 'biography' => 'pages#biography'
 
-  get 'pages/projects'
+  get 'projects' => 'pages#projects'
 
-  get 'pages/EE140'
+  get 'EE140' => 'pages#EE140'
 
-  get 'pages/CS150'
+  get 'CS150' =>'pages#CS150'
 
-  get 'pages/CS61A'
+  get 'CS61A' => 'pages#CS61A'
 
-  get 'pages/CS61C'
+  get 'CS61C' => 'pages#CS61C'
 
-  get 'pages/CS188'
+  get 'CS188' => 'pages#CS188'
 
-  get 'pages/CS162'
+  get 'CS162' => 'pages#CS162'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

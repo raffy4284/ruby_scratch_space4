@@ -8,21 +8,21 @@ class PagesController < ApplicationController
   def projects
   end
 
-  def ee140
+  def EE140
   end
 
-  def cs150
+  def CS150
   end
 
-  def cs61a
+  def CS61A
   end
 
-  def cs61c
+  def CS61C
   end
 
-  def cs188
+  def CS188
   end
 
-  def cs162
+  def CS162
   end
 end
